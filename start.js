@@ -6,5 +6,5 @@ var domain = argv.domain || false;
 var options = {
     timeout: 10,
     debug: true
-}
-proxy(port, options, domain )
+};
+proxy(port, options, domain);

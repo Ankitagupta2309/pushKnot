@@ -4,8 +4,12 @@
   "author": "Ankita",
   "repository": "https://github.com/Ankitagupta2309/pushKnot.git",
   "private": false,
+  "scripts": {
+    "jshint": "jshint lib start.js content"
+  },
   "dependencies": {
     "connect": "^3.4.1",
+    "jshint": "^2.9.2",
     "step": "0.0.6",
     "websocket": "^1.0.23",
     "yargs": "^4.7.1"
