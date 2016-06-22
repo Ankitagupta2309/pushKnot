@@ -1,6 +1,6 @@
 /* global self: false, JSON: false, WebSocket: false */
 self.addEventListener('push', function(event) {
-    var ws = new WebSocket('wss://localhost:8080', 'echo-protocol');
+    var ws = new WebSocket('wss://localhost:9003', 'echo-protocol');
     this.send = function (message, callback) {
         this.waitForConnection(function () {
             ws.send(message);
