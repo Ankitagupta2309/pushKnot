@@ -23,6 +23,7 @@ node pushKnot.js [options]
 ### Steps For integrating with Automation
 
 1. Start a chrome browser with --ignore-certificate-errors flag
-2. Start pushKnot node start.js --domain= <yourDomain>
-3. Trigger the notification
-4. The push notification response will be captured under pushKnot/content/response.json
+2. Set browser preference 'profile.default_content_setting_values.notifications': 1
+3. Start pushKnot node start.js --domain="your domain"
+4. Trigger the notification
+5. The push notification response will be captured under pushKnot/content/response.json
