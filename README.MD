@@ -1,3 +1,4 @@
+![logo](http://jatinm.wingified.com/pushKnot/images/pks2.png) 
 # PushKnot
 
 A proxy tool specialized in file replacing for push Notifications
@@ -22,6 +23,6 @@ node pushKnot.js [options]
 ### Steps For integrating with Automation
 
 1. Start a chrome browser with --ignore-certificate-errors flag
-2. Start pushKnot node start.js --domain=<yourDomain>
+2. Start pushKnot node start.js --domain= <yourDomain>
 3. Trigger the notification
 4. The push notification response will be captured under pushKnot/content/response.json
